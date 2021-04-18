@@ -61,6 +61,6 @@ public class Main {
     private static void increase(long singleTime, long multiTime) {
         double diff = ((double) singleTime / (double) multiTime) - 1;
         int increase = (int) (diff * 100);
-        System.out.printf("increase: %d%%%n", increase);
+        System.out.printf("increase efficiency: %d%%%n", increase);
     }
 }
